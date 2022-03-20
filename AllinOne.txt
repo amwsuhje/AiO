@@ -1,0 +1,854 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇨🇳 AiO_20220312_CN_中国_1, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: 🇨🇦 AiO_20220313_CA_加拿大_25, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220313_CA_加拿大_36, server: 134.195.196.68, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇬🇧 AiO_20220313_GB_英国_30, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 AiO_20220313_US_美国_34, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_105, server: 134.195.196.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_127, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_131, server: 134.195.196.81, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_147, server: 134.195.196.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_148, server: 134.195.196.81, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_156, server: 134.195.196.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_34, server: 134.195.196.3, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_35, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_36, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_40, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_43, server: 134.195.196.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_46, server: 134.195.196.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_48, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_53, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_55, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_61, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_69, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_79, server: 134.195.196.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_94, server: 134.195.196.81, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 AiO_20220314_CA_加拿大_97, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇬🇧 AiO_20220314_GB_英国_73, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220315_CA_加拿大_24, server: 134.195.196.3, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220315_CA_加拿大_27, server: 134.195.196.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 AiO_20220315_CA_加拿大_68, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 AiO_20220315_GB_英国_60, server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220316_CA_加拿大_277, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 AiO_20220316_CA_加拿大_279, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 AiO_20220316_CA_加拿大_333, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 AiO_20220316_CA_加拿大_340, server: 134.195.196.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇩🇪 AiO_20220316_DE_德国_258, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇩🇪 AiO_20220316_DE_德国_259, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 AiO_20220316_US_美国_113, server: smoracle2.515223.xyz, port: 25859, type: vmess, uuid: 620e3569-7653-4456-9f71-c6f19f3839fe, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 AiO_20220316_US_美国_136, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: false}
+  - {name: AiO_20220317_67, server: 104.17.103.125, port: 80, type: vmess, uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wwwnet, headers: {Host: caa.ziyun.ga}}}
+  - {name: 🇨🇦 AiO_20220317_CA_加拿大_72, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 AiO_20220317_CA_加拿大_74, server: 134.195.196.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇩🇪 AiO_20220317_DE_德国_51, server: 142.93.168.188, port: 21612, type: ss, cipher: chacha20-ietf-poly1305, password: zUOC2CcSPiEX}
+  - {name: AiO_20220317_MK_前南马其顿_65, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇦🇺 AiO_20220318_AU_澳大利亚_35, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_31, server: 198.57.27.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_36, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_42, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_45, server: 134.195.196.3, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_64, server: 134.195.196.3, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_69, server: 134.195.196.3, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_72, server: 134.195.196.3, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 AiO_20220318_CA_加拿大_74, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 AiO_20220318_SG_新加坡_68, server: 167.71.197.50, port: 44194, type: vmess, uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 AiO_20220318_US_美国_11, server: 169.197.142.4, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 AiO_20220318_US_美国_13, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 AiO_20220318_US_美国_21, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 AiO_20220318_US_美国_24, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 AiO_20220318_US_美国_55, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 AiO_20220318_US_美国_71, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_48, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_57, server: 134.195.196.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_60, server: 134.195.196.81, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_61, server: 134.195.196.81, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_62, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_63, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇨🇦 AiO_20220319_CA_加拿大_65, server: 134.195.196.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇳 AiO_20220319_CN_中国_59, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com}
+  - {name: 🇩🇪 AiO_20220319_DE_德国_56, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 AiO_20220319_US_美国_34, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: false}
+  - {name: 🇺🇸 AiO_20220319_US_美国_55, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: 🇺🇸 AiO_20220320_US_美国_1, server: cloudflare.a-yu.xyz, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: zero2.a-yu.xyz}}}
+  - {name: 🇭🇰 AiO_20220320_HK_香港_2, server: 0318hk05.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0318hk05.fans8.xyz}}}
+  - {name: AiO_20220320_3, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /xrenblog/, headers: {Host: ipv6.xrenblog.com}}}
+  - {name: 🇨🇳 AiO_20220320_CN_中国_4, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: 🇺🇸 AiO_20220320_US_美国_5, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_6, server: 134.195.196.68, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_7, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 AiO_20220320_US_美国_8, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: ddec8c44-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AIYjzOJE/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_9, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 AiO_20220320_HK_香港_10, server: kr.rnmtq.gq, port: 63470, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: kr.rnmtq.gq}}}
+  - {name: 🇺🇸 AiO_20220320_US_美国_11, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: e0184058-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AIYjzOJE/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: 🇺🇸 AiO_20220320_US_美国_12, server: 0314la01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314la01.fans8.xyz}}}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_13, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇸 AiO_20220320_US_美国_14, server: 169.197.142.4, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇭🇰 AiO_20220320_HK_香港_15, server: 0317hk.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0317hk.fans8.xyz}}}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_16, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_17, server: 134.195.196.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_18, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 AiO_20220320_US_美国_19, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 45.35.84.162}}}
+  - {name: 🇺🇸 AiO_20220320_US_美国_20, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇭🇰 AiO_20220320_HK_香港_21, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sztjvws, headers: {Host: me.nimen.ml}}}
+  - {name: 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22, server: 0314ru01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0314ru01.fans8.xyz}}}
+  - {name: 🇩🇪 AiO_20220320_DE_德国_23, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_24, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 AiO_20220320_US_美国_25, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_26, server: 134.195.196.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 AiO_20220320_US_美国_27, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_28, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_29, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇬🇧 AiO_20220320_GB_英国_30, server: 172.99.190.92, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_31, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇨🇦 AiO_20220320_CA_加拿大_32, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 AiO_20220320_US_美国_33, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_18
+      - 🇺🇸 AiO_20220320_US_美国_19
+      - 🇺🇸 AiO_20220320_US_美国_20
+      - 🇭🇰 AiO_20220320_HK_香港_21
+      - 🇷🇺 AiO_20220320_RU_俄罗斯联邦_22
+      - 🇩🇪 AiO_20220320_DE_德国_23
+      - 🇨🇦 AiO_20220320_CA_加拿大_24
+      - 🇺🇸 AiO_20220320_US_美国_25
+      - 🇨🇦 AiO_20220320_CA_加拿大_26
+      - 🇺🇸 AiO_20220320_US_美国_27
+      - 🇨🇦 AiO_20220320_CA_加拿大_28
+      - 🇨🇦 AiO_20220320_CA_加拿大_29
+      - 🇬🇧 AiO_20220320_GB_英国_30
+      - 🇨🇦 AiO_20220320_CA_加拿大_31
+      - 🇨🇦 AiO_20220320_CA_加拿大_32
+      - 🇺🇸 AiO_20220320_US_美国_33
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇨🇳 AiO_20220312_CN_中国_1
+      - 🇨🇦 AiO_20220313_CA_加拿大_25
+      - 🇨🇦 AiO_20220313_CA_加拿大_36
+      - 🇬🇧 AiO_20220313_GB_英国_30
+      - 🇺🇸 AiO_20220313_US_美国_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_105
+      - 🇨🇦 AiO_20220314_CA_加拿大_127
+      - 🇨🇦 AiO_20220314_CA_加拿大_131
+      - 🇨🇦 AiO_20220314_CA_加拿大_147
+      - 🇨🇦 AiO_20220314_CA_加拿大_148
+      - 🇨🇦 AiO_20220314_CA_加拿大_156
+      - 🇨🇦 AiO_20220314_CA_加拿大_34
+      - 🇨🇦 AiO_20220314_CA_加拿大_35
+      - 🇨🇦 AiO_20220314_CA_加拿大_36
+      - 🇨🇦 AiO_20220314_CA_加拿大_40
+      - 🇨🇦 AiO_20220314_CA_加拿大_43
+      - 🇨🇦 AiO_20220314_CA_加拿大_46
+      - 🇨🇦 AiO_20220314_CA_加拿大_48
+      - 🇨🇦 AiO_20220314_CA_加拿大_53
+      - 🇨🇦 AiO_20220314_CA_加拿大_55
+      - 🇨🇦 AiO_20220314_CA_加拿大_61
+      - 🇨🇦 AiO_20220314_CA_加拿大_69
+      - 🇨🇦 AiO_20220314_CA_加拿大_79
+      - 🇨🇦 AiO_20220314_CA_加拿大_94
+      - 🇨🇦 AiO_20220314_CA_加拿大_97
+      - 🇬🇧 AiO_20220314_GB_英国_73
+      - 🇨🇦 AiO_20220315_CA_加拿大_24
+      - 🇨🇦 AiO_20220315_CA_加拿大_27
+      - 🇨🇦 AiO_20220315_CA_加拿大_68
+      - 🇬🇧 AiO_20220315_GB_英国_60
+      - 🇨🇦 AiO_20220316_CA_加拿大_277
+      - 🇨🇦 AiO_20220316_CA_加拿大_279
+      - 🇨🇦 AiO_20220316_CA_加拿大_333
+      - 🇨🇦 AiO_20220316_CA_加拿大_340
+      - 🇩🇪 AiO_20220316_DE_德国_258
+      - 🇩🇪 AiO_20220316_DE_德国_259
+      - 🇺🇸 AiO_20220316_US_美国_113
+      - 🇺🇸 AiO_20220316_US_美国_136
+      - AiO_20220317_67
+      - 🇨🇦 AiO_20220317_CA_加拿大_72
+      - 🇨🇦 AiO_20220317_CA_加拿大_74
+      - 🇩🇪 AiO_20220317_DE_德国_51
+      - AiO_20220317_MK_前南马其顿_65
+      - 🇦🇺 AiO_20220318_AU_澳大利亚_35
+      - 🇨🇦 AiO_20220318_CA_加拿大_31
+      - 🇨🇦 AiO_20220318_CA_加拿大_36
+      - 🇨🇦 AiO_20220318_CA_加拿大_42
+      - 🇨🇦 AiO_20220318_CA_加拿大_45
+      - 🇨🇦 AiO_20220318_CA_加拿大_64
+      - 🇨🇦 AiO_20220318_CA_加拿大_69
+      - 🇨🇦 AiO_20220318_CA_加拿大_72
+      - 🇨🇦 AiO_20220318_CA_加拿大_74
+      - 🇸🇬 AiO_20220318_SG_新加坡_68
+      - 🇺🇸 AiO_20220318_US_美国_11
+      - 🇺🇸 AiO_20220318_US_美国_13
+      - 🇺🇸 AiO_20220318_US_美国_21
+      - 🇺🇸 AiO_20220318_US_美国_24
+      - 🇺🇸 AiO_20220318_US_美国_55
+      - 🇺🇸 AiO_20220318_US_美国_71
+      - 🇨🇦 AiO_20220319_CA_加拿大_48
+      - 🇨🇦 AiO_20220319_CA_加拿大_57
+      - 🇨🇦 AiO_20220319_CA_加拿大_60
+      - 🇨🇦 AiO_20220319_CA_加拿大_61
+      - 🇨🇦 AiO_20220319_CA_加拿大_62
+      - 🇨🇦 AiO_20220319_CA_加拿大_63
+      - 🇨🇦 AiO_20220319_CA_加拿大_65
+      - 🇨🇳 AiO_20220319_CN_中国_59
+      - 🇩🇪 AiO_20220319_DE_德国_56
+      - 🇺🇸 AiO_20220319_US_美国_34
+      - 🇺🇸 AiO_20220319_US_美国_55
+      - 🇺🇸 AiO_20220320_US_美国_1
+      - 🇭🇰 AiO_20220320_HK_香港_2
+      - AiO_20220320_3
+      - 🇨🇳 AiO_20220320_CN_中国_4
+      - 🇺🇸 AiO_20220320_US_美国_5
+      - 🇨🇦 AiO_20220320_CA_加拿大_6
+      - 🇨🇦 AiO_20220320_CA_加拿大_7
+      - 🇺🇸 AiO_20220320_US_美国_8
+      - 🇨🇦 AiO_20220320_CA_加拿大_9
+      - 🇭🇰 AiO_20220320_HK_香港_10
+      - 🇺🇸 AiO_20220320_US_美国_11
+      - 🇺🇸 AiO_20220320_US_美国_12
+      - 🇨🇦 AiO_20220320_CA_加拿大_13
+      - 🇺🇸 AiO_20220320_US_美国_14
+      - 🇭🇰 AiO_20220320_HK_香港_15
+      - 🇨🇦 AiO_20220320_CA_加拿大_16
+      - 🇨🇦 AiO_20220320_CA_加拿大_17
+      - 🇨🇦 AiO_20220320_CA_加拿大_
